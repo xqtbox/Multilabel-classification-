@@ -1,7 +1,13 @@
-# Multilabel-classification-
+﻿# Multilabel-classification-
 Multilabel classification with scikit-learn (python) 
 
 
+机器学习模型进行multi-lable分类（一级标签），步骤：
+1. 读取数据，并将数据切分至train data、cross validation data、test data
+2. 文本向量化：onehot与tfidf
+3. 模型训练：多标签模型knn、svm
+4. 交叉验证cross validation，选择优参数
+5. 用test data 输出不同模型的准确度，给出展示。
 
 # 模型精度
 
